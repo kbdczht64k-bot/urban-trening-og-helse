@@ -23,9 +23,13 @@ export default function UrbanTreningPage() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
-                Book konsultasjon
-              </button>
+              <a
+  href="https://instagram.com/pt_nicourban"
+  target="_blank"
+  className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition inline-block"
+>
+  Book konsultasjon
+</a>
 
               <button className="border border-gray-300 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-gray-100 transition">
                 Se tjenester
@@ -36,7 +40,7 @@ export default function UrbanTreningPage() {
           <div>
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1600&auto=format&fit=crop"
+                src="/Nico Profil.JPG"
                 alt="Trening"
                 className="w-full h-[600px] object-cover"
               />
