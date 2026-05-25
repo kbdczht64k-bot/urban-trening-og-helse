@@ -23,9 +23,13 @@ export default function UrbanTreningPage() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
-                Book konsultasjon
-              </button>
+              <a
+  href="https://instagram.com/pt_nicourban"
+  target="_blank"
+  className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition inline-block"
+>
+  Book konsultasjon
+</a>
 
               <button className="border border-gray-300 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-gray-100 transition">
                 Se tjenester
